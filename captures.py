@@ -40,11 +40,12 @@ def keyboardCallBack(key: keyboard.KeyboardEvent):
 keyboard.hook(callback=keyboardCallBack)
 i = 0
 
+# while True:
+#     if keyboard.is_pressed("a"):
 while (not keyboard.is_pressed("esc")):
-
     # Capture image and save to the 'captures' folder with time and date along with the key being pressed
     image = cv2.cvtColor(np.array(ImageGrab.grab(
-        bbox=(620, 220, 1280, 360))), cv2.COLOR_RGB2BGR)
+        bbox=(520, 210, 1380, 420))), cv2.COLOR_RGB2BGR)
 
     # if key pressed embed the key pressed in the file name
     if len(buffer) != 0:
