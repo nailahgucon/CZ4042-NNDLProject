@@ -1,0 +1,11 @@
+pygame==2.5.2
+numpy==1.26.1
+Pillow==10.1.0
+pandas==2.1.2
+keyboard==0.13.5
+PyDirectInput==1.0.4
+opencv-python==4.8.1.78
+jupyter==1.0.0
+matplotlib==3.8.1
+scikit-learn==1.3.2
+tqdm==4.66.1
