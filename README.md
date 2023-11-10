@@ -4,8 +4,6 @@
 
 ## Brief Introduction
 
----
-
 * Develop an endless runner game with Python and PyGame
 * Train an AI model with EfficientNetV2-S to play the game
 
@@ -13,17 +11,13 @@
 
 ## RunLah PyGame Application
 
----
-
 RunLah is an endless runner game developed from scratch with PyGame, where the player-controlled
 game avatar continuously moves forward through a side-scrolling landscape, while dodging obstacles of
 varying difficulty to achieve the best possible score.
 
 To run the game, run the following command:
 
-<code>
-python .\RunLahGame\RunLahGame.py
-</code>
+<code>python .\RunLahGame\RunLahGame.py</code>
 
 ![RunLah Gameplay](./ReadMeAssets/gameplay.png)
 
@@ -40,9 +34,7 @@ Else, if you would like to train your own model, follow the steps below.
 To run the dataset preparation code solution to obtain the game screenshots, make sure RunLah
 is running and run the following command:
 
-<code>
-python .\capture_runlah_gameplay.py
-</code>
+<code>python .\capture_runlah_gameplay.py</code>
 
 ![RunLah Gameplay](./ReadMeAssets/captures-folder.png)
 
@@ -53,9 +45,7 @@ python .\capture_runlah_gameplay.py
 To run the dataset processing code solution to obtain the <code>labels.csv</code> file with the image filenames and
 their associated labels, run the following command:
 
-<code>
-python .\process_dataset.py
-</code>
+<code>python .\process_dataset.py</code>
 
 ![RunLah Labels CSV File](./ReadMeAssets/labels-file.png)
 
@@ -65,9 +55,7 @@ python .\process_dataset.py
 
 To run the training code solution, run the following command:
 
-<code>
-python -m notebook
-</code>
+<code>python -m notebook</code>
 
 Once Jupyter is open, navigate to the <code>train_RunLahAI.ipynb</code>, and <code>“Run All Cells”</code>.
 
@@ -82,9 +70,7 @@ Once Jupyter is open, navigate to the <code>train_RunLahAI.ipynb</code>, and <co
 To run the RunLahAI bot to play RunLah, make
 sure RunLah is running and run the following command:
 
-<code>
-python .\runlahAIbot.py
-</code>
+<code>python .\runlahAIbot.py</code>
 
 > To see the qualitative results of the RunLahAI Game Bot 
 > for different number of epochs and batch sizes, 
