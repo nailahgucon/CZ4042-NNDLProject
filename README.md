@@ -65,8 +65,6 @@ Once Jupyter is open, navigate to the <code>train_RunLahAI.ipynb</code>, and <co
 
 ## RunLahAI Game Bot Plays RunLah
 
----
-
 To run the RunLahAI bot to play RunLah, make
 sure RunLah is running and run the following command:
 
@@ -75,6 +73,8 @@ sure RunLah is running and run the following command:
 > To see the qualitative results of the RunLahAI Game Bot 
 > for different number of epochs and batch sizes, 
 > click [here](https://youtu.be/Nfv52699phw).
+
+<br>
 
 ![RunLah Thanks](./ReadMeAssets/end.png)
 
