@@ -78,3 +78,7 @@ sure RunLah is running and run the following command:
 
 ![RunLah Thanks](./ReadMeAssets/end.png)
 
+## References
+
+Resolving PyGame application keyboard-related issues (Using DirectInput):
+https://www.youtube.com/watch?v=LFDGgFRqVIs
